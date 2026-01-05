@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/IshwarBPawar/simple-nginx-argocd.git
+    repoURL: https://github.com/IshwarBPawar/argoapps.git
     targetRevision: HEAD
-    path: .
+    path: app/
   destination:
     server: https://kubernetes.default.svc
     namespace: default
